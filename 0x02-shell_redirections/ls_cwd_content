@@ -1,16 +1,24 @@
-total 48
-drwxr-xr-x 2 root root 284 Jun 16 07:10 .
-drwxr-xr-x 5 root root  96 Jun 16 06:28 ..
--rwxrwxrwx 1 root root  32 Jun 16 06:31 0-hello_world
--rwxrwxrwx 1 root root  28 Jun 16 06:55 1-confused_smiley
--rwxrwxrwx 1 root root  28 Jun 16 06:55 2-hellofile
--rwxrwxrwx 1 root root  39 Jun 16 06:58 3-twofiles
--rwxrwxrwx 1 root root  29 Jun 16 07:01 4-lastlines
--rwxrwxrwx 1 root root  29 Jun 16 07:02 5-firstlines
--rwxrwxrwx 1 root root  36 Jun 16 07:07 6-third_line
--rwxrwxrwx 1 root root 100 Jun 16 07:09 7-file
--rwxrwxrwx 1 root root  37 Jun 16 07:10 8-cwd_state
--rw-r--r-- 1 root root  17 Jun 16 07:09 \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
--rw-r--r-- 1 root root 801 Jun 16 07:08 iacta
--rw-r--r-- 1 root root   0 Jun 16 07:10 ls_cwd_content
--rw-r--r-- 1 root root  36 Jun 16 06:29 README.md
+total 84
+drwxr-xr-x 2 root root 4096 Jun 16 07:31 .
+drwxr-xr-x 5 root root   96 Jun 16 06:28 ..
+-rwxrwxrwx 1 root root   32 Jun 16 06:31 0-hello_world
+-rwxrwxrwx 1 root root   48 Jun 16 07:12 10-no_more_js
+-rwxrwxrwx 1 root root   45 Jun 16 07:17 11-directories
+-rwxrwxrwx 1 root root   26 Jun 16 07:18 12-newest_files
+-rwxrwxrwx 1 root root   27 Jun 16 07:19 13-unique
+-rwxrwxrwx 1 root root   34 Jun 16 07:23 14-findthatword
+-rwxrwxrwx 1 root root   37 Jun 16 07:23 15-countthatword
+-rwxrwxrwx 1 root root   28 Jun 16 06:55 1-confused_smiley
+-rwxrwxrwx 1 root root   28 Jun 16 06:55 2-hellofile
+-rwxrwxrwx 1 root root   39 Jun 16 06:58 3-twofiles
+-rwxrwxrwx 1 root root   29 Jun 16 07:01 4-lastlines
+-rwxrwxrwx 1 root root   29 Jun 16 07:02 5-firstlines
+-rwxrwxrwx 1 root root   36 Jun 16 07:07 6-third_line
+-rwxrwxrwx 1 root root  100 Jun 16 07:09 7-file
+-rwxrwxrwx 1 root root   36 Jun 16 07:31 8-cwd_state
+-rwxrwxrwx 1 root root   35 Jun 16 07:11 9-duplicate_last_line
+-rw-r--r-- 1 root root   17 Jun 16 07:27 \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 root root  857 Jun 16 07:11 iacta
+-rw-r--r-- 1 root root  168 Jun 16 07:20 list
+-rw-r--r-- 1 root root    0 Jun 16 07:32 ls_cwd_content
+-rw-r--r-- 1 root root   36 Jun 16 06:29 README.md
