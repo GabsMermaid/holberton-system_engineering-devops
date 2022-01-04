@@ -1,0 +1,4 @@
+#Configuration file for local SSH client
+
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
