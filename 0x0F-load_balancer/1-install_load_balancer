@@ -13,5 +13,5 @@ frontend load_balancer
 backend webserver
     balance roundrobin
     server 2373-web-01 34.139.29.222:80 check
-    server 2373-web-02 34.226.196.12:80 check" | tee /etc/haproxy/haproxy.cfg
+    server 2373-web-02 34.226.196.12:80 check" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
