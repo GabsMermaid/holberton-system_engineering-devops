@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Placheholder for ducmentation
+#Bash script that will display information about subdomains.
 
 detail()
 {
