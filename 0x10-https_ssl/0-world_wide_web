@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Placheholder for ducmentation
+
+detail()
+{
+	dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{printf "This subdomain %s is a %s record and points to %s\n", subdomain, $4, $5}' subdomain="$2"
+}
+
+if [[ -z "$2" ]]; then
+	detail "$1" "www"
+	detail "$1" "lb-01"
+	detail "$1" "web-01"
+	detail "$1" "web-02"
+else
+	detail "$1" "$2"
+fi
