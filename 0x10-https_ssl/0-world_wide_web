@@ -3,7 +3,7 @@
 
 detail()
 {
-	dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{printf "This subdomain %s is a %s record and points to %s\n", subdomain, $4, $5}' subdomain="$2"
+	dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tail -n1 | awk '{printf "The subdomain %s is a %s record and points to %s\n", subdomain, $4, $5}' subdomain="$2"
 }
 
 if [[ -z "$2" ]]; then
