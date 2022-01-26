@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Task 1 with 7 lines or less of code
-
 pkill -f apache2
 chown nginx:nginx /etc/nginx/nginx.conf
 chmod 700 /etc/nginx/nginx.conf
