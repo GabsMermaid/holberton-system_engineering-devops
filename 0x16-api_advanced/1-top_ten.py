@@ -4,6 +4,7 @@ first 10 hot posts listed for a given subreddit."""
 
 import requests
 
+
 def top_ten(subreddit):
     """Returns top 10 of subreddit"""
     url = "https://api.reddit.com/r/{}?sort=hot&limit=10".format(subreddit)
